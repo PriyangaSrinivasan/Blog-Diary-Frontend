@@ -18,7 +18,7 @@ const OAuth = () => {
 
         try {
             const result =await signInWithPopup(auth,provider)
-            const res =await fetch("http://localhost:4200/api/auth/google",{
+            const res =await fetch("https://blog-diary-flis.onrender.com/api/auth/google",{
                 method:'POST',
                 headers:{
                     'Content-Type':'application/json'
