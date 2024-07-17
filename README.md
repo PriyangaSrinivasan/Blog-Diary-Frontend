@@ -1,11 +1,13 @@
 # Blog Diary
+    Welcome to the blog diary! This application using the MERN(MongoDb, ExpressJS,ReactJs,NodeJs)Stack,enhanced with Tailwind CSS,React Redux, and JWT for secure authentication.
 
 # Features:
- Allowing Users:
-   Sign in or Sign up with google Your Account,Delete Account,Update Account,Create Post,Update Post,Delete Post,Like Post,Comment Post, and Share Post.
-
-The blog Diary is developed using MERN (MongoDb, ExpressJS,ReactJs,NodeJs)Stack,allowing users to create,read,update and delete blog posts,including features like adding new posts and viewing exiting posts.
-
+   * User registration and login
+   * Authentication using JWT Tokens
+   * CRUD operation(Blog create,read,update,delete)
+   * User can like,share,comment the other post
+   * Responsive Design.
+   
 # Frontend:
  Statemanagement:Redux
  
@@ -18,7 +20,6 @@ The blog Diary is developed using MERN (MongoDb, ExpressJS,ReactJs,NodeJs)Stack,
  Hooks:
   UseState,UseEffect,UseRef,UseNavigate,useDispatch,useSelector,useLocation.
 
-  
  # Database:
    MongoDB
 

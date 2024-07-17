@@ -15,11 +15,8 @@ const About = () => {
                     <p className='about text-3xl text-black'>
                         The blog Diary is developed using MERN (MongoDb, ExpressJS,ReactJs,NodeJs)Stack,allowing users to create,read,update and delete blog posts,including features like adding new posts and viewing exiting posts
                     </p>
-
                 </div>
-
             </div>
-           
         </div>
     );
 };

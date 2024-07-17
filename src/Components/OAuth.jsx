@@ -33,7 +33,7 @@ const OAuth = () => {
              if(res.ok){
                 localStorage.setItem("Token",data.token)
                 dispatch(logInSuccess(data))
-                navigate('/')
+                navigate('/blogs')
              }
         } catch (error) {
            dispatch(logInFailure(error.message)) 
